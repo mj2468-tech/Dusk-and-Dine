@@ -1,0 +1,146 @@
+body {
+    background-color: 203350;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.header-text h1 {
+    margin: 0;
+    text-align: center;
+    font-style:normal;
+    font-size: 3.5em;
+}
+.header-text p {
+    margin: 0;
+    font-size: 1.2em;
+}
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+        padding: px 0;
+}
+header img {
+    width:1600px;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #203350;
+    color: white;
+    padding: 1rem 0;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav .nav-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.hero h2 {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.btn {
+    background-color: #F1BD5D;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #56A3C7;
+}
+.featured-recipes {
+    padding: 2rem 1rem;
+}
+.featured-recipes h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.recipe-item {
+    border: 1px solid #060505;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+.recipe-item img {
+    max-width: 100%;
+    display: block;
+}
+.recipe-item h3 {
+    margin: 0.5rem 0;
+}
+.recipe-item p {
+    padding: 0 1rem 1rem;
+}
+footer {
+    background-color: #203350;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
